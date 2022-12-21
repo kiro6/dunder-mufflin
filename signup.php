@@ -34,7 +34,7 @@ session_start();
 			die;
 		}else
 		{ ?>
-			<script>alert("Please enter valid information!")</script>
+			<script>alert("Please enter valid information!") location="signup.php"</script>
 				<?php 
 		}
 	}
