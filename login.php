@@ -39,16 +39,16 @@ session_start();
 
 			?>
 			
-			<script>alert("wrong username or ID or password!")</script>
+			<script>alert("wrong username or ID or password!") location="login.php"</script>
 			
 			<?php 
-			header("Location: login.php");
+			
 		}else
 		{
 			?>
-			<script>alert("wrong username or ID or password!")</script>
+			<script>alert("wrong username or ID or password!") location="login.php" </script>
 			<?php 
-			header("Location: login.php");
+			
 		}
 	}
 	?>
